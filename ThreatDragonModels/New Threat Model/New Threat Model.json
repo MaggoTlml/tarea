@@ -131,13 +131,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -785,6 +778,38 @@
               "port": "42c0e106-bb43-4a29-b320-df7fe227444b"
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internal Network Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Internal Network Boundary"
+            ],
+            "id": "0d73457d-0772-4e4c-bf05-fd633b9f58c9",
+            "source": {
+              "x": 640,
+              "y": 100
+            },
+            "target": {
+              "x": 640,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 250
+              }
+            ]
           },
           {
             "position": {
